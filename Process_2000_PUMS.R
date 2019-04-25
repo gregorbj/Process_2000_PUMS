@@ -3,9 +3,10 @@
 #=================#
 
 #This script processes a Census 5% Public Use Microdata Sample Equivalency
-#(PUMEQ5) for the 2000 Census. This script produces the files needed to  The
-#script processes the PUMEQ5 file needed to estimate the CreateHouseholds,
-#PredictWorkers, PredictIncome, and PredictHousing modules. The script
+#file (PUMEQ5) from the 2000 Census for a state to produce files that need
+#to be included in the VESimHouseholds package of the VisionEval model
+#system and used to estimate model parameters for the CreateHouseholds, 
+PredictWorkers, PredictIncome, and PredictHousing modules. The script
 #references the file downloaded from the Census for the State of Oregon, but can
 #be modified to process the data for another state. The user can download
 #the data for another state from the census at the following URL:
